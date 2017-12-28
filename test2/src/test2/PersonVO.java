@@ -6,7 +6,14 @@ public class PersonVO {
 	private String tel;
 	private int no;
 	private int age;
+	private String sex;
 	
+	public String getSex() {
+		return sex;
+	}
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
 	public int getAge() {
 		return age;
 	}
