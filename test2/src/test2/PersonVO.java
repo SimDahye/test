@@ -6,8 +6,11 @@ public class PersonVO {
 	private String tel;
 	private int no;
 	private int age;
+	// HEAD 는 마스터에서 수정한 부분, 같은 라인을 수정시켰기때문에 충돌이 일어남 내용과는 무관하다!
+
 	private String gender;
 	
+
 	public String getGender() {
 		return gender;
 	}
