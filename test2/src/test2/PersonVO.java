@@ -6,7 +6,14 @@ public class PersonVO {
 	private String tel;
 	private int no;
 	private int age;
+	private String gender;
 	
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
 	public int getAge() {
 		return age;
 	}
@@ -38,7 +45,7 @@ public class PersonVO {
 		this.no = no;
 	}
 	
-	
-	
+
+
 
 }
